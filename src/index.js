@@ -35,9 +35,10 @@ const setSizerStyle = (windowSizer, location) => {
   windowSizer.style.padding = '0.25em 0.5em'
   windowSizer.style.border = '1px solid #ddd'
   windowSizer.style.background = 'white'
-  windowSizer.style.zIndex = '-100'
   windowSizer.style.transition = 'opacity 0.3s ease-in-out, zindex 0s 0.3s linear'
+  windowSizer.style.fontSize = '12px'
   windowSizer.style.opacity = '0'
+  windowSizer.style.zIndex = '-100'
 
   switch (location) {
     case 'top-left':
