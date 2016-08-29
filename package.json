@@ -4,8 +4,9 @@
   "description": "",
   "main": "dist/index.js",
   "scripts": {
+    "dev": "babel src -d dist --watch",
     "build": "babel src -d dist",
-    "prepublish": "npm rum build"
+    "prepublish": "npm run build"
   },
   "author": "",
   "license": "ISC",
